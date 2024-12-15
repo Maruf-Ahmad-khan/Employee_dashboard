@@ -15,7 +15,7 @@ st.markdown("""
             background-color: #D291BC;
         }
         .dark-black-text {
-            color: white;
+            color: black;
             font-size: 16px;
             font-weight: bold;
         }
