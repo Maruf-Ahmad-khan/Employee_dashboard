@@ -1,16 +1,12 @@
 import streamlit as st
 from pathlib import Path
-from Read import DataLoader
+import pandas as pd
+from Read import DataLoader  # Assuming this handles CSV loading now
 from Pro import DataProcessor
 
-
-
 # Constants
-FILE_PATH = Path(r"Employee_Activities_June_August_2024.csv")
+FILE_PATH = Path(r"Employee_Activities_June_August_2024.csv")  # Changed to .csv
 GRAPH_FOLDER = "graphs"
-
-# Debugging: Print the file path
-st.write(f"Looking for file at: {FILE_PATH.resolve()}")
 
 # Custom CSS for UI styling
 st.markdown("""
@@ -49,8 +45,9 @@ def render_table_with_custom_style(title, data):
 
 # Load Data
 try:
+    # Adjust the DataLoader to handle CSV (Assumed DataLoader is updated for CSV)
     loader = DataLoader(FILE_PATH)
-    data = loader.load_data()
+    data = loader.load_data()  # This should now load the CSV data
     st.success("File loaded successfully!")
 except FileNotFoundError as e:
     st.error(f"Error: {e}")
