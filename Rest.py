@@ -12,10 +12,10 @@ GRAPH_FOLDER = "graphs"
 st.markdown("""
     <style>
         .stApp {
-            background-color: #D291BC;
+            background-color: #800080;
         }
         .dark-black-text {
-            color: black;
+            color: white;
             font-size: 16px;
             font-weight: bold;
         }
