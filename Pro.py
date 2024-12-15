@@ -1,6 +1,7 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import os
+import plotly.express as px
+import plotly.graph_objects as go
+
 
 class DataProcessor:
     def __init__(self, data):
@@ -26,53 +27,56 @@ class DataProcessor:
         
         return results
     
-    def save_graphs(self, folder_path):
+    def generate_daily_graph(self):
         """
-        Generate and save daily, weekly, and monthly visual graphs as images.
+        Generate a dynamic daily summary graph using Plotly.
         """
-        # Create output folder if it doesn't exist
-        if not os.path.exists(folder_path):
-            os.makedirs(folder_path)
-        
-        # Add 'Week' and 'Month' columns
+        daily_summary = self.data.groupby('Date').agg({'Allotted Hours': 'sum', 'Utilized Hours': 'sum'}).reset_index()
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=daily_summary['Date'], y=daily_summary['Allotted Hours'], 
+                                 mode='lines+markers', name='Allotted Hours'))
+        fig.add_trace(go.Scatter(x=daily_summary['Date'], y=daily_summary['Utilized Hours'], 
+                                 mode='lines+markers', name='Utilized Hours'))
+        fig.update_layout(
+            title="Daily Allotted vs Utilized Hours",
+            xaxis_title="Date",
+            yaxis_title="Hours",
+            template="plotly_dark"
+        )
+        return fig
+
+    def generate_weekly_graph(self):
+        """
+        Generate a dynamic weekly summary graph using Plotly.
+        """
         self.data['Week'] = self.data['Date'].dt.isocalendar().week
+        weekly_summary = self.data.groupby('Week').agg({'Allotted Hours': 'sum', 'Utilized Hours': 'sum'}).reset_index()
+        fig = go.Figure()
+        fig.add_trace(go.Bar(x=weekly_summary['Week'], y=weekly_summary['Allotted Hours'], name='Allotted Hours'))
+        fig.add_trace(go.Bar(x=weekly_summary['Week'], y=weekly_summary['Utilized Hours'], name='Utilized Hours'))
+        fig.update_layout(
+            title="Weekly Allotted vs Utilized Hours",
+            xaxis_title="Week",
+            yaxis_title="Hours",
+            barmode="group",
+            template="plotly_dark"
+        )
+        return fig
+
+    def generate_monthly_graph(self):
+        """
+        Generate a dynamic monthly summary graph using Plotly.
+        """
         self.data['Month'] = self.data['Date'].dt.month
-        
-        # Daily Summary
-        daily_summary = self.data.groupby('Date').agg({'Allotted Hours': 'sum', 'Utilized Hours': 'sum'})
-        plt.figure(figsize=(8, 5))
-        plt.plot(daily_summary.index, daily_summary['Allotted Hours'], label='Allotted Hours', marker='o')
-        plt.plot(daily_summary.index, daily_summary['Utilized Hours'], label='Utilized Hours', marker='x')
-        plt.title("Daily Allotted vs Utilized Hours")
-        plt.xlabel("Date")
-        plt.ylabel("Hours")
-        plt.legend()
-        plt.grid()
-        plt.savefig(f"{folder_path}/daily_summary.png")
-        plt.close()
-
-        # Weekly Summary
-        weekly_summary = self.data.groupby('Week').agg({'Allotted Hours': 'sum', 'Utilized Hours': 'sum'})
-        plt.figure(figsize=(8, 5))
-        plt.plot(weekly_summary.index, weekly_summary['Allotted Hours'], label='Allotted Hours', marker='o')
-        plt.plot(weekly_summary.index, weekly_summary['Utilized Hours'], label='Utilized Hours', marker='x')
-        plt.title("Weekly Allotted vs Utilized Hours")
-        plt.xlabel("Week")
-        plt.ylabel("Hours")
-        plt.legend()
-        plt.grid()
-        plt.savefig(f"{folder_path}/weekly_summary.png")
-        plt.close()
-
-        # Monthly Summary
-        monthly_summary = self.data.groupby('Month').agg({'Allotted Hours': 'sum', 'Utilized Hours': 'sum'})
-        plt.figure(figsize=(8, 5))
-        plt.bar(monthly_summary.index - 0.2, monthly_summary['Allotted Hours'], width=0.4, label='Allotted Hours')
-        plt.bar(monthly_summary.index + 0.2, monthly_summary['Utilized Hours'], width=0.4, label='Utilized Hours')
-        plt.title("Monthly Allotted vs Utilized Hours")
-        plt.xlabel("Month")
-        plt.ylabel("Hours")
-        plt.legend()
-        plt.grid()
-        plt.savefig(f"{folder_path}/monthly_summary.png")
-        plt.close()
+        monthly_summary = self.data.groupby('Month').agg({'Allotted Hours': 'sum', 'Utilized Hours': 'sum'}).reset_index()
+        fig = go.Figure()
+        fig.add_trace(go.Bar(x=monthly_summary['Month'], y=monthly_summary['Allotted Hours'], name='Allotted Hours'))
+        fig.add_trace(go.Bar(x=monthly_summary['Month'], y=monthly_summary['Utilized Hours'], name='Utilized Hours'))
+        fig.update_layout(
+            title="Monthly Allotted vs Utilized Hours",
+            xaxis_title="Month",
+            yaxis_title="Hours",
+            barmode="group",
+            template="plotly_dark"
+        )
+        return fig

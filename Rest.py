@@ -6,7 +6,6 @@ from Pro import DataProcessor
 
 # Constants
 FILE_PATH = Path(r"Employee_Activities_June_August_2024.csv")  # Changed to .csv
-GRAPH_FOLDER = "graphs"
 
 # Custom CSS for UI styling
 st.markdown("""
@@ -45,14 +44,12 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-
 # Title
 st.title("Employee Activities Dashboard")
 st.write("### Visualize Allotted vs Utilized Hours")
 
 # Helper Function to Render Tables
 def render_table_with_custom_style(title, data):
-    import pandas as pd
     st.markdown(f"<h4 style='color: white;'>{title}</h4>", unsafe_allow_html=True)
     if isinstance(data, pd.Series):
         data = data.reset_index().rename(columns={0: "Values"})
@@ -63,7 +60,7 @@ try:
     # Adjust the DataLoader to handle CSV (Assumed DataLoader is updated for CSV)
     loader = DataLoader(FILE_PATH)
     data = loader.load_data()  # This should now load the CSV data
-    st.success("File loaded successfully!")
+    st.success("File loaded successfully!", icon="✅")
 except FileNotFoundError as e:
     st.error(f"Error: {e}")
     st.stop()
@@ -80,12 +77,14 @@ if st.button("Show Summarized Results"):
     render_table_with_custom_style("4. Sum of Utilized Hours for Each Employee (Project Wise)", results['utilized_sum_project'])
 
 if st.button("Generate and Show Graphs"):
-    processor.save_graphs(GRAPH_FOLDER)
     st.write("#### Daily Allotted vs Utilized Hours")
-    st.image(f"{GRAPH_FOLDER}/daily_summary.png")
+    daily_fig = processor.generate_daily_graph()
+    st.plotly_chart(daily_fig, use_container_width=True)
 
     st.write("#### Weekly Allotted vs Utilized Hours")
-    st.image(f"{GRAPH_FOLDER}/weekly_summary.png")
+    weekly_fig = processor.generate_weekly_graph()
+    st.plotly_chart(weekly_fig, use_container_width=True)
 
     st.write("#### Monthly Allotted vs Utilized Hours")
-    st.image(f"{GRAPH_FOLDER}/monthly_summary.png")
+    monthly_fig = processor.generate_monthly_graph()
+    st.plotly_chart(monthly_fig, use_container_width=True)
