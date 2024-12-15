@@ -1,10 +1,14 @@
 import streamlit as st
+from pathlib import Path
 from Read import DataLoader
 from Pro import DataProcessor
 
 # Constants
-FILE_PATH = r"C:\Users\mk744\OneDrive - Poornima University\Desktop\Employee_activity\Employee_Activities_June_August_2024.xlsx"
+FILE_PATH = Path("C:/Users/mk744/OneDrive - Poornima University/Desktop/Employee_activity/Employee_Activities_June_August_2024.xlsx")
 GRAPH_FOLDER = "graphs"
+
+# Debugging: Print the file path
+st.write(f"Looking for file at: {FILE_PATH.resolve()}")
 
 # Custom CSS for UI styling
 st.markdown("""
@@ -42,8 +46,13 @@ def render_table_with_custom_style(title, data):
     st.table(data)
 
 # Load Data
-loader = DataLoader(FILE_PATH)
-data = loader.load_data()
+try:
+    loader = DataLoader(FILE_PATH)
+    data = loader.load_data()
+    st.success("File loaded successfully!")
+except FileNotFoundError as e:
+    st.error(f"Error: {e}")
+    st.stop()
 
 # Process Data
 processor = DataProcessor(data)
