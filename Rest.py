@@ -12,7 +12,7 @@ GRAPH_FOLDER = "graphs"
 st.markdown("""
     <style>
         .stApp {
-            background-color: #800080;
+            background-color: #D291BC;
         }
         .dark-black-text {
             color: white;
