@@ -10,30 +10,41 @@ GRAPH_FOLDER = "graphs"
 
 # Custom CSS for UI styling
 st.markdown("""
-   <style>
-    .stApp {
-        background-color: #A5D6AF; /* Light green background */
-    }
-    h1, h2, h3, h4 {
-        color: #000000; /* Bold black font for headings */
-        font-weight: bold;
-    }
-    table {
-        color: #000000; /* Bold black font for tables */
-        font-weight: bold;
-    }
-    .stButton > button {
-        color: black;
-        background-color: #007BFF;
-        border-radius: 5px;
-        border: none;
-    }
-    .stButton > button:hover {
-        background-color: #0056b3;
-    }
-</style>
+    <style>
+        /* App background */
+        .stApp {
+            background-color: #151932; /* Dark background */
+        }
 
+        /* Headings in bold white */
+        h1, h2, h3, h4 {
+            color: white; /* White font for headings */
+            font-weight: bold;
+        }
+
+        /* File loaded message style */
+        .stAlert {
+            background-color: rgba(139, 139, 139, 0.2); /* Light gray with transparency */
+            color: white; /* White font for message text */
+            font-weight: bold;
+        }
+
+        /* Button styles */
+        .stButton > button {
+            color: #0C28BB; /* Blue text color */
+            background-color: white; /* Button background */
+            border-radius: 5px; /* Rounded corners */
+            border: none; /* No border */
+            font-weight: bold;
+        }
+
+        .stButton > button:hover {
+            background-color: #0A1E78; /* Darker blue on hover */
+            color: white; /* White text on hover */
+        }
+    </style>
 """, unsafe_allow_html=True)
+
 
 # Title
 st.title("Employee Activities Dashboard")
@@ -42,7 +53,7 @@ st.write("### Visualize Allotted vs Utilized Hours")
 # Helper Function to Render Tables
 def render_table_with_custom_style(title, data):
     import pandas as pd
-    st.markdown(f"<h4 style='color: white;'>{title}</h4>", unsafe_allow_html=True)
+    st.markdown(f"<h4 style='color: black;'>{title}</h4>", unsafe_allow_html=True)
     if isinstance(data, pd.Series):
         data = data.reset_index().rename(columns={0: "Values"})
     st.table(data)
