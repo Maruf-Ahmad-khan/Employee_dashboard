@@ -44,6 +44,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+
 # Title
 st.title("Employee Activities Dashboard")
 st.write("### Visualize Allotted vs Utilized Hours")
