@@ -10,25 +10,29 @@ GRAPH_FOLDER = "graphs"
 
 # Custom CSS for UI styling
 st.markdown("""
-    <style>
-        .stApp {
-            background-color: #800080;
-        }
-        .dark-black-text {
-            color: white;
-            font-size: 16px;
-            font-weight: bold;
-        }
-        .stButton > button {
-            color: black;
-            background-color: #007BFF;
-            border-radius: 5px;
-            border: none;
-        }
-        .stButton > button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+   <style>
+    .stApp {
+        background-color: #A5D6AF; /* Light green background */
+    }
+    h1, h2, h3, h4 {
+        color: #000000; /* Bold black font for headings */
+        font-weight: bold;
+    }
+    table {
+        color: #000000; /* Bold black font for tables */
+        font-weight: bold;
+    }
+    .stButton > button {
+        color: black;
+        background-color: #007BFF;
+        border-radius: 5px;
+        border: none;
+    }
+    .stButton > button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
 """, unsafe_allow_html=True)
 
 # Title
