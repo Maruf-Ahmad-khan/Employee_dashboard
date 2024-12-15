@@ -6,7 +6,7 @@ from Pro import DataProcessor
 
 
 # Constants
-FILE_PATH = Path("C:\Users\mk744\OneDrive - Poornima University\Desktop\Employee_activity\Employee_Activities_June_August_2024.csv")
+FILE_PATH = Path(r"C:\Users\mk744\OneDrive - Poornima University\Desktop\Employee_activity\Employee_Activities_June_August_2024.csv")
 GRAPH_FOLDER = "graphs"
 
 # Debugging: Print the file path
