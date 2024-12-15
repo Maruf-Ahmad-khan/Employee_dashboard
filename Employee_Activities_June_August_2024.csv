@@ -1,0 +1,650 @@
+﻿Date,Employee Name,Activity,Allotted Hours,Utilized Hours
+2024-06-03,Alice,System Development,4,3.3
+2024-06-03,Alice,Solution Discussion,3.4,3.3
+2024-06-03,Alice,Customer Meeting,0.6,0.9
+2024-06-03,Bob,System Development,2.8,2.9
+2024-06-03,Bob,Deployment,1.4,1.5
+2024-06-03,Charlie,Customer Meeting,1.1,1.1
+2024-06-03,Charlie,Stand-up Meeting,2.4,2.4
+2024-06-03,David,Solution Discussion,2.6,2.7
+2024-06-03,David,QA,3.5,3.6
+2024-06-03,Eve,Deployment,2,1.8
+2024-06-04,Alice,Solution Discussion,1.2,1
+2024-06-04,Bob,System Development,1.5,1.4
+2024-06-04,Charlie,System Development,2.2,1.8
+2024-06-04,Charlie,Solution Discussion,1.9,2.3
+2024-06-04,Charlie,Deployment,3.5,3.7
+2024-06-04,David,Solution Discussion,1.7,1.8
+2024-06-04,David,Customer Meeting,1,1.1
+2024-06-04,David,Stand-up Meeting,1.5,1.3
+2024-06-04,Eve,Customer Meeting,3.3,3
+2024-06-04,Eve,System Development,1.3,1.1
+2024-06-04,Eve,QA,1.3,1.3
+2024-06-05,Alice,Solution Discussion,3.3,3.9
+2024-06-05,Alice,Stand-up Meeting,2.3,2.2
+2024-06-05,Bob,QA,1.8,1.9
+2024-06-05,Charlie,Deployment,2.9,3.2
+2024-06-05,David,QA,3.2,3.4
+2024-06-05,Eve,Stand-up Meeting,1.6,1.6
+2024-06-05,Eve,QA,3.3,3.1
+2024-06-06,Alice,Customer Meeting,2.7,3.1
+2024-06-06,Alice,Deployment,2.3,2.5
+2024-06-06,Bob,QA,2.9,3.3
+2024-06-06,Bob,Customer Meeting,2.7,2.4
+2024-06-06,Charlie,System Development,1.6,1.5
+2024-06-06,Charlie,Solution Discussion,1.3,1.4
+2024-06-06,David,Customer Meeting,1.9,2.2
+2024-06-06,David,System Development,3.6,4.1
+2024-06-06,David,Stand-up Meeting,1.5,1.3
+2024-06-06,Eve,System Development,1.2,1.1
+2024-06-06,Eve,QA,3.9,4.2
+2024-06-07,Alice,Solution Discussion,2.1,2.3
+2024-06-07,Alice,QA,1.7,1.5
+2024-06-07,Bob,QA,2.9,3.1
+2024-06-07,Charlie,Deployment,2.7,2.9
+2024-06-07,David,QA,2.3,2.3
+2024-06-07,David,Deployment,2.6,2.9
+2024-06-07,David,Stand-up Meeting,1.4,1.3
+2024-06-07,Eve,Deployment,1.8,1.9
+2024-06-10,Alice,Customer Meeting,2.8,2.4
+2024-06-10,Alice,System Development,3.8,4.1
+2024-06-10,Bob,System Development,1.4,1.6
+2024-06-10,Bob,Customer Meeting,3.2,3
+2024-06-10,Bob,QA,2.8,2.5
+2024-06-10,Charlie,Deployment,3.7,4.3
+2024-06-10,Charlie,Stand-up Meeting,2.4,2.3
+2024-06-10,David,Deployment,2.3,2.7
+2024-06-10,David,Stand-up Meeting,2.4,2.3
+2024-06-10,Eve,QA,2.8,2.7
+2024-06-10,Eve,System Development,1.4,1.3
+2024-06-11,Alice,QA,3.9,4.5
+2024-06-11,Bob,Solution Discussion,1.3,1.5
+2024-06-11,Bob,Customer Meeting,2.1,2.4
+2024-06-11,Bob,System Development,1.4,1.2
+2024-06-11,Charlie,Customer Meeting,1.9,1.7
+2024-06-11,Charlie,Deployment,3.9,3.2
+2024-06-11,Charlie,Solution Discussion,2,2.3
+2024-06-11,David,System Development,1.7,1.7
+2024-06-11,David,Stand-up Meeting,3.2,2.6
+2024-06-11,Eve,Customer Meeting,3.6,3.7
+2024-06-11,Eve,Solution Discussion,2.7,2.3
+2024-06-11,Eve,System Development,1.4,1.5
+2024-06-12,Alice,System Development,3.8,3.7
+2024-06-12,Bob,Deployment,3.6,3.8
+2024-06-12,Bob,Stand-up Meeting,2.6,3
+2024-06-12,Bob,Customer Meeting,1.7,1.2
+2024-06-12,Charlie,Deployment,2.8,2.8
+2024-06-12,David,Customer Meeting,3.3,3.8
+2024-06-12,David,Stand-up Meeting,1.9,2
+2024-06-12,Eve,Deployment,3.1,2.5
+2024-06-12,Eve,Customer Meeting,3.5,2.9
+2024-06-13,Alice,Stand-up Meeting,1.3,1.4
+2024-06-13,Alice,Customer Meeting,3.3,3.1
+2024-06-13,Bob,System Development,1.9,1.8
+2024-06-13,Bob,Customer Meeting,2.1,2.5
+2024-06-13,Bob,Solution Discussion,2.4,2.3
+2024-06-13,Charlie,Stand-up Meeting,3.1,3.2
+2024-06-13,David,Solution Discussion,3,2.9
+2024-06-13,Eve,Customer Meeting,1.5,1.7
+2024-06-14,Alice,System Development,1.1,0.9
+2024-06-14,Alice,Solution Discussion,1.7,1.9
+2024-06-14,Alice,Customer Meeting,1.3,1.3
+2024-06-14,Bob,Stand-up Meeting,1.1,1.3
+2024-06-14,Bob,System Development,3.9,4
+2024-06-14,Charlie,QA,2.5,2.5
+2024-06-14,Charlie,Solution Discussion,1.7,1.6
+2024-06-14,Charlie,System Development,2.4,2.6
+2024-06-14,David,QA,1.4,1.4
+2024-06-14,David,System Development,2.1,2.5
+2024-06-14,Eve,System Development,2.4,2.8
+2024-06-14,Eve,Deployment,3.5,4.2
+2024-06-17,Alice,Stand-up Meeting,2.2,2.2
+2024-06-17,Alice,Customer Meeting,2,2.2
+2024-06-17,Bob,Solution Discussion,2.3,2
+2024-06-17,Bob,QA,2.4,2.7
+2024-06-17,Bob,Customer Meeting,1.4,1.2
+2024-06-17,Charlie,Stand-up Meeting,3.1,3.7
+2024-06-17,Charlie,Solution Discussion,3.6,3.8
+2024-06-17,Charlie,Deployment,1.1,0.5
+2024-06-17,David,Customer Meeting,3.2,3.3
+2024-06-17,Eve,Stand-up Meeting,3.6,4.3
+2024-06-18,Alice,Deployment,3.7,4
+2024-06-18,Alice,QA,2.4,2.6
+2024-06-18,Alice,Customer Meeting,1.4,1.4
+2024-06-18,Bob,Stand-up Meeting,2.1,1.9
+2024-06-18,Bob,Customer Meeting,2.4,2.1
+2024-06-18,Charlie,Customer Meeting,3,3.4
+2024-06-18,David,QA,3.4,2.8
+2024-06-18,David,Customer Meeting,2.8,3.2
+2024-06-18,David,Stand-up Meeting,1.8,2
+2024-06-18,Eve,System Development,3.1,2.8
+2024-06-18,Eve,Customer Meeting,3.4,2.7
+2024-06-19,Alice,Stand-up Meeting,2.7,2.3
+2024-06-19,Bob,QA,3.2,3.7
+2024-06-19,Bob,System Development,2.5,2.5
+2024-06-19,Charlie,Deployment,1.9,2.1
+2024-06-19,Charlie,Customer Meeting,2.4,2.5
+2024-06-19,David,Solution Discussion,3.2,3
+2024-06-19,Eve,Stand-up Meeting,1.4,1.6
+2024-06-20,Alice,Stand-up Meeting,3.9,4.5
+2024-06-20,Bob,Deployment,1.8,2
+2024-06-20,Bob,Stand-up Meeting,2.6,2.3
+2024-06-20,Charlie,Solution Discussion,3.1,3.1
+2024-06-20,Charlie,Deployment,1.9,1.6
+2024-06-20,Charlie,Stand-up Meeting,2.9,3.3
+2024-06-20,David,System Development,3.1,2.6
+2024-06-20,Eve,Deployment,2.7,2.5
+2024-06-20,Eve,Stand-up Meeting,1.2,1.2
+2024-06-21,Alice,Customer Meeting,1.1,0.9
+2024-06-21,Bob,Customer Meeting,2.7,3
+2024-06-21,Bob,System Development,1.6,1.7
+2024-06-21,Charlie,Stand-up Meeting,2.3,2.1
+2024-06-21,Charlie,Solution Discussion,3.3,3.3
+2024-06-21,David,Stand-up Meeting,1.9,1.9
+2024-06-21,David,QA,2.8,2.5
+2024-06-21,Eve,Solution Discussion,2.2,2.2
+2024-06-21,Eve,Stand-up Meeting,3.5,3.6
+2024-06-24,Alice,QA,2.1,2.1
+2024-06-24,Alice,Deployment,1.7,1.8
+2024-06-24,Alice,Customer Meeting,3.6,3.3
+2024-06-24,Bob,System Development,1.6,1.6
+2024-06-24,Bob,QA,1.7,1.8
+2024-06-24,Bob,Solution Discussion,2.2,1.8
+2024-06-24,Charlie,Stand-up Meeting,1.4,1.2
+2024-06-24,Charlie,Deployment,1.9,2.1
+2024-06-24,Charlie,System Development,2.3,2.5
+2024-06-24,David,Deployment,3.8,4.5
+2024-06-24,David,Solution Discussion,2.1,1.8
+2024-06-24,Eve,Stand-up Meeting,1.3,1.4
+2024-06-24,Eve,Customer Meeting,1.2,1.1
+2024-06-25,Alice,System Development,1.5,1.5
+2024-06-25,Bob,QA,2.9,2.7
+2024-06-25,Charlie,Customer Meeting,3.4,3.8
+2024-06-25,David,Deployment,1.8,1.4
+2024-06-25,David,Stand-up Meeting,2.5,2.6
+2024-06-25,David,System Development,2.5,2
+2024-06-25,Eve,Deployment,2,1.7
+2024-06-26,Alice,Stand-up Meeting,1.5,1.3
+2024-06-26,Alice,Deployment,3.8,3.2
+2024-06-26,Bob,QA,1.1,0.9
+2024-06-26,Bob,Deployment,3.8,4
+2024-06-26,Charlie,System Development,3.1,2.7
+2024-06-26,Charlie,Stand-up Meeting,3.6,3.3
+2024-06-26,David,QA,2.3,2.3
+2024-06-26,David,System Development,2.9,3.4
+2024-06-26,Eve,Stand-up Meeting,2.8,2.4
+2024-06-27,Alice,Deployment,2.5,2.9
+2024-06-27,Alice,Customer Meeting,2.3,2.6
+2024-06-27,Alice,Stand-up Meeting,2.8,2.5
+2024-06-27,Bob,Customer Meeting,2.8,3.3
+2024-06-27,Charlie,QA,2.7,3.1
+2024-06-27,Charlie,Solution Discussion,3.4,2.7
+2024-06-27,Charlie,Deployment,1.3,1.3
+2024-06-27,David,QA,3.5,3.4
+2024-06-27,David,Deployment,2.5,2.3
+2024-06-27,Eve,Deployment,2.1,2
+2024-06-28,Alice,Solution Discussion,3.7,3.5
+2024-06-28,Bob,QA,2.7,2.4
+2024-06-28,Bob,System Development,1.6,1.9
+2024-06-28,Bob,Solution Discussion,3.6,3.6
+2024-06-28,Charlie,Deployment,2.3,2.7
+2024-06-28,David,Solution Discussion,3,3.4
+2024-06-28,Eve,Stand-up Meeting,1.3,1.1
+2024-07-01,Alice,Deployment,3.6,3.1
+2024-07-01,Bob,Stand-up Meeting,2.2,1.9
+2024-07-01,Charlie,System Development,1.5,1.6
+2024-07-01,Charlie,Customer Meeting,1.6,1.7
+2024-07-01,Charlie,Deployment,1.6,1.6
+2024-07-01,David,Stand-up Meeting,3.4,2.8
+2024-07-01,Eve,Customer Meeting,1.9,1.6
+2024-07-02,Alice,Stand-up Meeting,1.8,1.7
+2024-07-02,Bob,Customer Meeting,2.9,2.9
+2024-07-02,Bob,System Development,2.6,2.6
+2024-07-02,Bob,QA,2.3,2.5
+2024-07-02,Charlie,Deployment,2.7,3
+2024-07-02,Charlie,Solution Discussion,3.9,4.5
+2024-07-02,Charlie,System Development,1,0.5
+2024-07-02,David,QA,3.2,3.2
+2024-07-02,Eve,Customer Meeting,2.3,2.7
+2024-07-03,Alice,QA,2.6,2.7
+2024-07-03,Bob,Solution Discussion,1.8,1.8
+2024-07-03,Bob,Stand-up Meeting,2.1,2.3
+2024-07-03,Bob,Customer Meeting,3,3.2
+2024-07-03,Charlie,Solution Discussion,1,0.8
+2024-07-03,Charlie,Deployment,1.9,1.7
+2024-07-03,David,Customer Meeting,2,2.1
+2024-07-03,David,Solution Discussion,3.1,3
+2024-07-03,Eve,Customer Meeting,1.4,1.3
+2024-07-04,Alice,Deployment,3.6,3.8
+2024-07-04,Alice,System Development,2.6,2.9
+2024-07-04,Bob,Customer Meeting,1.1,0.9
+2024-07-04,Bob,Stand-up Meeting,3.7,4.1
+2024-07-04,Bob,Solution Discussion,2.5,2.8
+2024-07-04,Charlie,Deployment,1.6,1.5
+2024-07-04,Charlie,System Development,1.7,1.8
+2024-07-04,Charlie,QA,3.3,3.9
+2024-07-04,David,Solution Discussion,3.3,3.2
+2024-07-04,David,System Development,3.4,3.6
+2024-07-04,David,Stand-up Meeting,1.1,1.2
+2024-07-04,Eve,Customer Meeting,3.4,2.9
+2024-07-04,Eve,System Development,1.4,1.2
+2024-07-04,Eve,Deployment,2.9,2.7
+2024-07-05,Alice,Solution Discussion,2.1,1.9
+2024-07-05,Bob,Deployment,3.7,4.1
+2024-07-05,Charlie,Deployment,2,2.3
+2024-07-05,Charlie,QA,1.7,1.8
+2024-07-05,David,Stand-up Meeting,1.7,1.6
+2024-07-05,David,System Development,2.8,2.3
+2024-07-05,David,Deployment,2.2,2.2
+2024-07-05,Eve,Solution Discussion,3.6,3.8
+2024-07-08,Alice,Customer Meeting,2.5,2.7
+2024-07-08,Alice,Solution Discussion,1.8,2
+2024-07-08,Alice,Deployment,3,3.3
+2024-07-08,Bob,Stand-up Meeting,1.1,1.3
+2024-07-08,Bob,Solution Discussion,1.8,1.6
+2024-07-08,Charlie,QA,2.3,2.3
+2024-07-08,Charlie,Solution Discussion,2.7,2.9
+2024-07-08,Charlie,System Development,1.1,1.2
+2024-07-08,David,Stand-up Meeting,4,3.8
+2024-07-08,David,System Development,1.1,1.2
+2024-07-08,Eve,Customer Meeting,2.3,2.3
+2024-07-08,Eve,Solution Discussion,1.1,1
+2024-07-09,Alice,System Development,3.2,2.9
+2024-07-09,Alice,Stand-up Meeting,2.2,2.4
+2024-07-09,Alice,Deployment,2.3,2.2
+2024-07-09,Bob,Deployment,2.8,2.6
+2024-07-09,Bob,QA,2,2.4
+2024-07-09,Bob,Stand-up Meeting,2.6,2.5
+2024-07-09,Charlie,Deployment,1.4,1.1
+2024-07-09,David,Stand-up Meeting,3,3.5
+2024-07-09,Eve,QA,2.3,2
+2024-07-10,Alice,Customer Meeting,1.8,1.5
+2024-07-10,Alice,Deployment,1.5,1.7
+2024-07-10,Bob,Customer Meeting,1.7,1.9
+2024-07-10,Bob,Solution Discussion,2.6,2.2
+2024-07-10,Bob,QA,2.4,2.3
+2024-07-10,Charlie,Solution Discussion,1.6,1.9
+2024-07-10,David,Customer Meeting,1.2,1.2
+2024-07-10,David,QA,3.8,3.9
+2024-07-10,David,Solution Discussion,2.1,2.5
+2024-07-10,Eve,System Development,2.1,2.2
+2024-07-10,Eve,Customer Meeting,2.5,2.3
+2024-07-10,Eve,QA,1.7,1.9
+2024-07-11,Alice,System Development,1.8,1.7
+2024-07-11,Alice,QA,2.6,2.2
+2024-07-11,Alice,Deployment,3,3.5
+2024-07-11,Bob,QA,1,1.2
+2024-07-11,Bob,Deployment,2.4,2.5
+2024-07-11,Charlie,System Development,3.8,3.4
+2024-07-11,Charlie,Deployment,1.1,1.1
+2024-07-11,David,QA,2.6,2.1
+2024-07-11,Eve,System Development,1.1,1.1
+2024-07-11,Eve,QA,3.4,4
+2024-07-12,Alice,Customer Meeting,2.4,2.1
+2024-07-12,Bob,Solution Discussion,3.6,3.3
+2024-07-12,Bob,QA,1.6,1.5
+2024-07-12,Charlie,QA,3.7,3.6
+2024-07-12,Charlie,Customer Meeting,1.6,1.5
+2024-07-12,David,Solution Discussion,2.2,1.8
+2024-07-12,David,QA,1,0.9
+2024-07-12,David,Customer Meeting,1.9,2.2
+2024-07-12,Eve,Stand-up Meeting,2.7,3
+2024-07-15,Alice,Stand-up Meeting,2.7,2.5
+2024-07-15,Alice,Customer Meeting,3.9,3.6
+2024-07-15,Bob,QA,3.4,3.6
+2024-07-15,Charlie,QA,2.5,2.6
+2024-07-15,Charlie,System Development,2.2,2.3
+2024-07-15,David,Deployment,3.7,4.4
+2024-07-15,David,QA,1.6,1.3
+2024-07-15,Eve,QA,1.1,1.2
+2024-07-15,Eve,System Development,1.1,1
+2024-07-16,Alice,Customer Meeting,2.7,3.1
+2024-07-16,Bob,Customer Meeting,1.8,1.6
+2024-07-16,Bob,System Development,4,3.3
+2024-07-16,Charlie,Customer Meeting,3,3.3
+2024-07-16,David,Stand-up Meeting,1.1,1.1
+2024-07-16,David,Customer Meeting,2.6,2.7
+2024-07-16,David,Solution Discussion,3.1,2.9
+2024-07-16,Eve,System Development,1,1.1
+2024-07-16,Eve,QA,3,2.9
+2024-07-17,Alice,System Development,2.7,2.4
+2024-07-17,Alice,Deployment,1.5,1.2
+2024-07-17,Alice,QA,1.5,1.2
+2024-07-17,Bob,Solution Discussion,1.5,1.8
+2024-07-17,Charlie,Customer Meeting,3,2.9
+2024-07-17,David,Customer Meeting,2.8,2.6
+2024-07-17,David,Stand-up Meeting,4,4
+2024-07-17,David,QA,1.2,1.1
+2024-07-17,Eve,Solution Discussion,3.8,4.1
+2024-07-17,Eve,Deployment,2.5,2.2
+2024-07-17,Eve,QA,1.6,1.7
+2024-07-18,Alice,Stand-up Meeting,2,2.1
+2024-07-18,Alice,Customer Meeting,3.1,3.4
+2024-07-18,Bob,System Development,3,2.6
+2024-07-18,Bob,Customer Meeting,2.3,1.9
+2024-07-18,Charlie,Customer Meeting,2.6,2.6
+2024-07-18,Charlie,QA,2.4,2.2
+2024-07-18,Charlie,Solution Discussion,1.2,1.4
+2024-07-18,David,Deployment,1.3,1.2
+2024-07-18,David,QA,1.8,1.6
+2024-07-18,Eve,Deployment,2.2,2.6
+2024-07-19,Alice,Deployment,3.6,3.2
+2024-07-19,Alice,Customer Meeting,2.4,2.3
+2024-07-19,Alice,Stand-up Meeting,1.5,1.3
+2024-07-19,Bob,Customer Meeting,2.3,2.1
+2024-07-19,Charlie,System Development,1.4,1.3
+2024-07-19,Charlie,Solution Discussion,1.4,1.4
+2024-07-19,David,Solution Discussion,2.8,2.7
+2024-07-19,Eve,Solution Discussion,3.7,4.1
+2024-07-19,Eve,Customer Meeting,2.7,2.3
+2024-07-19,Eve,Stand-up Meeting,1.3,1.4
+2024-07-22,Alice,Customer Meeting,1.7,1.8
+2024-07-22,Alice,Deployment,3,2.5
+2024-07-22,Alice,System Development,1.2,1.1
+2024-07-22,Bob,Stand-up Meeting,3.5,3
+2024-07-22,Bob,System Development,1.9,1.7
+2024-07-22,Bob,Customer Meeting,2.5,2.1
+2024-07-22,Charlie,Solution Discussion,2.6,2.8
+2024-07-22,David,Stand-up Meeting,3.4,3.7
+2024-07-22,David,QA,2.6,2.7
+2024-07-22,Eve,Stand-up Meeting,1.2,1
+2024-07-22,Eve,QA,1.3,1.3
+2024-07-22,Eve,Deployment,1.7,2
+2024-07-23,Alice,Stand-up Meeting,2.5,2.5
+2024-07-23,Bob,Stand-up Meeting,3,2.8
+2024-07-23,Charlie,QA,1.5,1.7
+2024-07-23,Charlie,Solution Discussion,1.9,2
+2024-07-23,Charlie,System Development,2.1,2
+2024-07-23,David,Stand-up Meeting,2,2
+2024-07-23,Eve,Stand-up Meeting,2.2,2.4
+2024-07-23,Eve,Deployment,1.9,2.1
+2024-07-24,Alice,QA,1.6,1.6
+2024-07-24,Alice,Solution Discussion,1.1,1.2
+2024-07-24,Alice,Customer Meeting,3.9,3.2
+2024-07-24,Bob,Solution Discussion,2.2,2.2
+2024-07-24,Charlie,System Development,3.4,3.6
+2024-07-24,Charlie,Stand-up Meeting,3,2.7
+2024-07-24,David,System Development,3.3,3.7
+2024-07-24,Eve,Stand-up Meeting,3.3,2.9
+2024-07-25,Alice,Solution Discussion,2.1,1.7
+2024-07-25,Bob,Deployment,3.2,3.1
+2024-07-25,Bob,Stand-up Meeting,2,2.2
+2024-07-25,Bob,System Development,1.1,1.2
+2024-07-25,Charlie,Customer Meeting,1.7,1.6
+2024-07-25,Charlie,System Development,3.3,2.8
+2024-07-25,David,Deployment,3.1,2.8
+2024-07-25,Eve,Solution Discussion,2.4,2.7
+2024-07-25,Eve,Customer Meeting,3.6,4.1
+2024-07-26,Alice,Solution Discussion,3.4,3.9
+2024-07-26,Bob,QA,3.7,3.3
+2024-07-26,Bob,Solution Discussion,2.7,2.9
+2024-07-26,Charlie,System Development,2.8,2.7
+2024-07-26,David,Stand-up Meeting,1.1,1.3
+2024-07-26,David,Solution Discussion,2.2,2
+2024-07-26,Eve,Deployment,1.9,1.8
+2024-07-26,Eve,System Development,2.4,2.6
+2024-07-26,Eve,Customer Meeting,3.1,2.5
+2024-07-29,Alice,System Development,1.4,1.5
+2024-07-29,Alice,Solution Discussion,3.4,3.9
+2024-07-29,Bob,Solution Discussion,1.4,1.3
+2024-07-29,Charlie,Solution Discussion,1.4,1.4
+2024-07-29,Charlie,System Development,3.2,3.1
+2024-07-29,Charlie,Stand-up Meeting,2.8,2.3
+2024-07-29,David,System Development,3.1,3.4
+2024-07-29,David,Deployment,2.9,3.4
+2024-07-29,Eve,Deployment,3.8,4.4
+2024-07-29,Eve,Solution Discussion,3.6,3.2
+2024-07-30,Alice,Stand-up Meeting,1.7,1.4
+2024-07-30,Alice,Deployment,2.8,2.3
+2024-07-30,Alice,System Development,2.5,2.2
+2024-07-30,Bob,Solution Discussion,1.4,1.5
+2024-07-30,Bob,System Development,3,3.6
+2024-07-30,Charlie,Solution Discussion,3.6,4.2
+2024-07-30,Charlie,QA,2.2,2.3
+2024-07-30,David,Stand-up Meeting,1.9,1.8
+2024-07-30,David,Deployment,2.6,2.2
+2024-07-30,Eve,QA,2.5,2.7
+2024-07-30,Eve,Deployment,2,1.7
+2024-07-30,Eve,Customer Meeting,1.8,1.9
+2024-07-31,Alice,Stand-up Meeting,3.9,3.5
+2024-07-31,Alice,Deployment,1.1,1.3
+2024-07-31,Alice,System Development,1.3,1
+2024-07-31,Bob,System Development,3.9,4.2
+2024-07-31,Charlie,Stand-up Meeting,1.9,2
+2024-07-31,Charlie,Deployment,1.5,1.6
+2024-07-31,David,QA,1.7,1.8
+2024-07-31,David,System Development,3.3,3.8
+2024-07-31,Eve,Deployment,2,2.1
+2024-07-31,Eve,Customer Meeting,1.9,1.7
+2024-08-01,Alice,Deployment,2.7,2.2
+2024-08-01,Bob,Solution Discussion,2,1.8
+2024-08-01,Bob,Deployment,1.3,1.1
+2024-08-01,Bob,Customer Meeting,3.6,3.9
+2024-08-01,Charlie,Solution Discussion,2.3,2.7
+2024-08-01,David,Deployment,2.5,2
+2024-08-01,David,Solution Discussion,1.6,1.8
+2024-08-01,David,QA,3.8,3.9
+2024-08-01,Eve,QA,3.2,3.6
+2024-08-01,Eve,Deployment,2.8,2.2
+2024-08-02,Alice,Deployment,2,2.2
+2024-08-02,Alice,Customer Meeting,2.9,3.2
+2024-08-02,Bob,Customer Meeting,3.2,3.8
+2024-08-02,Bob,System Development,1.8,1.5
+2024-08-02,Bob,Stand-up Meeting,1.6,1.8
+2024-08-02,Charlie,QA,3,3
+2024-08-02,Charlie,Deployment,2.5,2.1
+2024-08-02,David,QA,2.6,2.3
+2024-08-02,David,System Development,1,1.1
+2024-08-02,David,Solution Discussion,2.7,2.2
+2024-08-02,Eve,Solution Discussion,3.8,3.4
+2024-08-05,Alice,Customer Meeting,2.3,2.5
+2024-08-05,Bob,Stand-up Meeting,1.4,1.4
+2024-08-05,Bob,QA,1.3,1.3
+2024-08-05,Bob,Customer Meeting,3.7,3.8
+2024-08-05,Charlie,Solution Discussion,1.3,1.3
+2024-08-05,David,Customer Meeting,3.8,3.9
+2024-08-05,David,Deployment,3.5,3.5
+2024-08-05,David,QA,0.7,0.6
+2024-08-05,Eve,Deployment,3.7,3.5
+2024-08-06,Alice,Solution Discussion,1.8,1.8
+2024-08-06,Alice,Deployment,3.1,3.6
+2024-08-06,Alice,QA,3,2.6
+2024-08-06,Bob,Stand-up Meeting,1,0.9
+2024-08-06,Bob,Customer Meeting,2.4,2.1
+2024-08-06,Charlie,Stand-up Meeting,2.7,2.3
+2024-08-06,Charlie,Deployment,2,1.9
+2024-08-06,Charlie,System Development,1,1
+2024-08-06,David,Deployment,4,3.9
+2024-08-06,David,Customer Meeting,3.3,2.9
+2024-08-06,David,Solution Discussion,0.7,1
+2024-08-06,Eve,Stand-up Meeting,2,2.3
+2024-08-07,Alice,QA,3.9,4.1
+2024-08-07,Bob,Customer Meeting,2.9,2.7
+2024-08-07,Bob,QA,2.4,2.5
+2024-08-07,Bob,System Development,1.3,1.5
+2024-08-07,Charlie,Customer Meeting,3.9,3.8
+2024-08-07,David,Stand-up Meeting,3.2,2.9
+2024-08-07,Eve,QA,3.4,3.6
+2024-08-07,Eve,Deployment,2.5,2.8
+2024-08-07,Eve,System Development,2,1.6
+2024-08-08,Alice,Deployment,1.4,1.1
+2024-08-08,Alice,Solution Discussion,3.6,3
+2024-08-08,Alice,QA,1.9,2.3
+2024-08-08,Bob,Customer Meeting,2.3,2.4
+2024-08-08,Bob,Deployment,1.4,1.3
+2024-08-08,Charlie,System Development,1.9,2.2
+2024-08-08,David,Solution Discussion,3.6,3.5
+2024-08-08,David,QA,2.7,2.7
+2024-08-08,David,Stand-up Meeting,1.6,1.6
+2024-08-08,Eve,Stand-up Meeting,3.1,3.5
+2024-08-08,Eve,Deployment,2.3,2.6
+2024-08-08,Eve,Solution Discussion,2.6,1.9
+2024-08-09,Alice,Customer Meeting,2,2.3
+2024-08-09,Bob,System Development,1.9,2
+2024-08-09,Charlie,Deployment,3.9,4.3
+2024-08-09,David,Deployment,1.7,1.5
+2024-08-09,David,Customer Meeting,3.4,2.9
+2024-08-09,Eve,Stand-up Meeting,2.8,3.2
+2024-08-09,Eve,QA,2.6,2.5
+2024-08-09,Eve,System Development,1.9,2.1
+2024-08-12,Alice,QA,3.4,3.1
+2024-08-12,Alice,Deployment,2,1.8
+2024-08-12,Alice,Customer Meeting,2.1,1.7
+2024-08-12,Bob,Solution Discussion,1.4,1.6
+2024-08-12,Bob,Stand-up Meeting,3.8,3.5
+2024-08-12,Bob,Deployment,1.6,1.7
+2024-08-12,Charlie,QA,3,2.4
+2024-08-12,David,Deployment,2.9,2.5
+2024-08-12,David,Stand-up Meeting,3.1,3.7
+2024-08-12,David,QA,1.9,1.8
+2024-08-12,Eve,QA,3.7,4.4
+2024-08-12,Eve,Solution Discussion,3.9,3.2
+2024-08-12,Eve,System Development,0.4,0.4
+2024-08-13,Alice,Stand-up Meeting,3.6,3.8
+2024-08-13,Alice,QA,1.3,1.1
+2024-08-13,Alice,Deployment,1,1.1
+2024-08-13,Bob,Deployment,1.2,1
+2024-08-13,Bob,Customer Meeting,2.2,2.1
+2024-08-13,Bob,QA,3.8,4.3
+2024-08-13,Charlie,Customer Meeting,3.8,4.6
+2024-08-13,Charlie,QA,1.4,1.6
+2024-08-13,Charlie,Solution Discussion,1.4,1.7
+2024-08-13,David,Customer Meeting,2.3,2.1
+2024-08-13,David,Stand-up Meeting,2.9,3.1
+2024-08-13,David,Solution Discussion,2.7,2.8
+2024-08-13,Eve,QA,3,2.6
+2024-08-14,Alice,Deployment,2.6,3.1
+2024-08-14,Alice,Customer Meeting,3.1,3.3
+2024-08-14,Bob,Stand-up Meeting,1.3,1.4
+2024-08-14,Charlie,QA,3.5,3.9
+2024-08-14,Charlie,System Development,2.5,2
+2024-08-14,David,System Development,1.7,1.8
+2024-08-14,David,Solution Discussion,3.9,3.6
+2024-08-14,David,QA,2,2.2
+2024-08-14,Eve,Deployment,2,2.2
+2024-08-14,Eve,QA,1.2,1.3
+2024-08-14,Eve,Stand-up Meeting,3.8,4
+2024-08-15,Alice,Deployment,2.3,1.9
+2024-08-15,Alice,Stand-up Meeting,1.6,1.8
+2024-08-15,Bob,Deployment,3.5,3.5
+2024-08-15,Bob,Customer Meeting,2,1.9
+2024-08-15,Bob,QA,2.3,2
+2024-08-15,Charlie,System Development,2.6,2.3
+2024-08-15,David,QA,2.9,3.3
+2024-08-15,David,System Development,1.2,1.4
+2024-08-15,Eve,Solution Discussion,3.1,3.2
+2024-08-16,Alice,QA,2.8,3
+2024-08-16,Alice,Deployment,2.7,3.2
+2024-08-16,Alice,Solution Discussion,1.3,1.5
+2024-08-16,Bob,QA,2.5,2
+2024-08-16,Bob,Stand-up Meeting,1.7,2
+2024-08-16,Bob,Customer Meeting,3.7,4
+2024-08-16,Charlie,QA,2.9,3
+2024-08-16,Charlie,Deployment,2.3,2.1
+2024-08-16,Charlie,Solution Discussion,1.4,1.5
+2024-08-16,David,Solution Discussion,3.5,4.1
+2024-08-16,David,QA,2.3,2
+2024-08-16,Eve,Stand-up Meeting,3.6,3.7
+2024-08-16,Eve,QA,3,2.4
+2024-08-19,Alice,Customer Meeting,1.7,1.4
+2024-08-19,Alice,Solution Discussion,1.5,1.3
+2024-08-19,Bob,Customer Meeting,3.7,3.6
+2024-08-19,Bob,Solution Discussion,2,2.2
+2024-08-19,Bob,Deployment,1.2,1.4
+2024-08-19,Charlie,Customer Meeting,1.9,1.6
+2024-08-19,Charlie,System Development,1.8,1.7
+2024-08-19,Charlie,QA,1.3,1.2
+2024-08-19,David,QA,2.6,2.8
+2024-08-19,David,System Development,3.6,3.3
+2024-08-19,Eve,Solution Discussion,2.5,2.7
+2024-08-19,Eve,Stand-up Meeting,1.5,1.7
+2024-08-20,Alice,System Development,2.2,2.4
+2024-08-20,Alice,Stand-up Meeting,3.4,3.6
+2024-08-20,Bob,Customer Meeting,1.8,1.9
+2024-08-20,Charlie,Customer Meeting,3.1,3.6
+2024-08-20,Charlie,Stand-up Meeting,1.9,1.9
+2024-08-20,David,Deployment,2.2,2
+2024-08-20,Eve,Deployment,1.8,2
+2024-08-21,Alice,System Development,1.6,1.4
+2024-08-21,Bob,Customer Meeting,2.3,2.1
+2024-08-21,Charlie,System Development,1.1,1
+2024-08-21,Charlie,Stand-up Meeting,3.6,3.3
+2024-08-21,David,Customer Meeting,1.6,1.5
+2024-08-21,Eve,QA,3.3,3.9
+2024-08-21,Eve,System Development,3,3.5
+2024-08-21,Eve,Stand-up Meeting,1.2,0.6
+2024-08-22,Alice,Deployment,3.3,2.9
+2024-08-22,Alice,Stand-up Meeting,1.4,1.2
+2024-08-22,Alice,System Development,2.5,2.4
+2024-08-22,Bob,Solution Discussion,2.4,2.2
+2024-08-22,Charlie,QA,1.4,1.2
+2024-08-22,Charlie,Solution Discussion,1.3,1.1
+2024-08-22,Charlie,System Development,3.4,3.5
+2024-08-22,David,Customer Meeting,1.1,1.2
+2024-08-22,Eve,System Development,2,1.9
+2024-08-23,Alice,Customer Meeting,3.9,4.6
+2024-08-23,Alice,QA,1.6,1.6
+2024-08-23,Bob,Solution Discussion,3.6,3.8
+2024-08-23,Bob,Stand-up Meeting,1.5,1.7
+2024-08-23,Charlie,Solution Discussion,2.8,2.8
+2024-08-23,Charlie,Deployment,3.4,4.1
+2024-08-23,Charlie,QA,1.4,1.1
+2024-08-23,David,System Development,2.1,1.8
+2024-08-23,David,Stand-up Meeting,1.1,0.9
+2024-08-23,David,QA,2.2,2.6
+2024-08-23,Eve,Solution Discussion,2.5,2.5
+2024-08-23,Eve,Customer Meeting,1.4,1.5
+2024-08-23,Eve,Deployment,3.4,4
+2024-08-26,Alice,Customer Meeting,1.8,2.1
+2024-08-26,Alice,Stand-up Meeting,3.4,3.9
+2024-08-26,Alice,QA,1.5,1.4
+2024-08-26,Bob,System Development,1.6,1.3
+2024-08-26,Bob,Customer Meeting,3.6,3.1
+2024-08-26,Charlie,Deployment,1.9,1.5
+2024-08-26,Charlie,Customer Meeting,2.4,2.5
+2024-08-26,David,System Development,3.3,4
+2024-08-26,Eve,System Development,2.8,2.9
+2024-08-27,Alice,System Development,1.6,1.3
+2024-08-27,Bob,Solution Discussion,1.5,1.7
+2024-08-27,Bob,Deployment,1.6,1.3
+2024-08-27,Bob,System Development,3.7,3.8
+2024-08-27,Charlie,QA,3.6,3
+2024-08-27,Charlie,Deployment,1.5,1.7
+2024-08-27,David,Stand-up Meeting,1.4,1.5
+2024-08-27,Eve,Deployment,2.6,2.7
+2024-08-27,Eve,System Development,2.7,2.5
+2024-08-28,Alice,Solution Discussion,3.2,3.5
+2024-08-28,Alice,System Development,1.5,1.4
+2024-08-28,Alice,Stand-up Meeting,2.5,2.1
+2024-08-28,Bob,Customer Meeting,1.5,1.6
+2024-08-28,Bob,System Development,3.9,3.5
+2024-08-28,Charlie,QA,1.9,1.6
+2024-08-28,Charlie,Deployment,2.5,3
+2024-08-28,David,Customer Meeting,2.6,2.9
+2024-08-28,David,QA,2.6,2.9
+2024-08-28,David,Stand-up Meeting,2.6,2.2
+2024-08-28,Eve,Customer Meeting,3,3.6
+2024-08-28,Eve,Deployment,1.1,1.2
+2024-08-28,Eve,Solution Discussion,1.5,1.2
+2024-08-29,Alice,Solution Discussion,2.6,3
+2024-08-29,Alice,Deployment,3.8,3.2
+2024-08-29,Alice,QA,1.4,1.4
+2024-08-29,Bob,Deployment,1.5,1.4
+2024-08-29,Charlie,Customer Meeting,2,2
+2024-08-29,Charlie,Stand-up Meeting,3.8,3.3
+2024-08-29,Charlie,QA,1,0.9
+2024-08-29,David,Solution Discussion,2.6,2.9
+2024-08-29,David,QA,1.5,1.4
+2024-08-29,Eve,Deployment,2.9,3.4
+2024-08-29,Eve,Solution Discussion,3.4,3
+2024-08-29,Eve,QA,1.7,1.6
+2024-08-30,Alice,Deployment,2.2,2.4
+2024-08-30,Alice,Customer Meeting,1.2,1.3
+2024-08-30,Alice,Solution Discussion,1.4,1.2
+2024-08-30,Bob,Solution Discussion,1.2,1.4
+2024-08-30,Charlie,Stand-up Meeting,2.4,2.8
+2024-08-30,Charlie,System Development,2.3,2.4
+2024-08-30,David,Customer Meeting,2.9,2.3
+2024-08-30,Eve,Customer Meeting,3.8,3.9
+2024-08-30,Eve,Solution Discussion,2.5,2.2
+2024-08-30,Eve,Deployment,1.3,1.3
