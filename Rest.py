@@ -13,7 +13,7 @@ st.markdown("""
             background-color: #800080;
         }
         .dark-black-text {
-            color: #000000;
+            color: white;
             font-size: 16px;
             font-weight: bold;
         }
