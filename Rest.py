@@ -53,7 +53,7 @@ st.write("### Visualize Allotted vs Utilized Hours")
 # Helper Function to Render Tables
 def render_table_with_custom_style(title, data):
     import pandas as pd
-    st.markdown(f"<h4 style='color: black;'>{title}</h4>", unsafe_allow_html=True)
+    st.markdown(f"<h4 style='color: white;'>{title}</h4>", unsafe_allow_html=True)
     if isinstance(data, pd.Series):
         data = data.reset_index().rename(columns={0: "Values"})
     st.table(data)
