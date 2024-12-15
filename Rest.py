@@ -4,7 +4,7 @@ from Read import DataLoader
 from Pro import DataProcessor
 
 # Constants
-FILE_PATH = Path("C:/Users/mk744/OneDrive - Poornima University/Desktop/Employee_activity/Employee_Activities_June_August_2024.xlsx")
+FILE_PATH = Path("Employee_Activities_June_August_2024.xlsx")
 GRAPH_FOLDER = "graphs"
 
 # Debugging: Print the file path
